@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: rgb(223, 121, 121);
+  padding-left: 200px;
+}
+
+.navbar .navbar-nav {
+  padding-left: 100px;
+}
+.navbar .navbar-nav .nav-item a {
+  color: white;
+  padding-left: 12px;
+  font-size: 20px;
+}
+.navbar a.navbar-brand {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* section donate */
+ .donate  {
+  padding: 100px 0px;
+}
+.donate .donate-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.donate .donate-content .right {
+  width: 50%;
+  display: flex;
+}
+
+.donate .donate-content .right .image img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.donate .donate-content .right .love img {
+  height: 200px;
+}
+
+.donate .donate-content .left {
+  width: 30%;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+.donate .donate-content .left .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.donate .donate-content .left p {
+  text-align: justify;
+}
+.donate .donate-content .left a {
+  display: inline-block;
+  background-color: rgb(223, 121, 121);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 20px;
+  color: white;
+  margin-top: 20px;
+  border: 2px solid rgb(223, 121, 121);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.donate .donate-content .left a:hover {
+  background: none;
+  color: rgb(223, 121, 121);
+}
+
+.donate .donate-content .donate a:hover {
+  color: rgb(223, 121, 121);
+  background: none;
+}
+
+/* footer sectionn */
+
+footer {
+  padding: 50px 0px;
+  background-color: rgb(243, 194, 194);
+}
+
+footer .footer-content .column .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+.footer-content .column {
+  width: 25%;
+  padding-left: 20px;
+}
+footer .footer-content .col-1 {
+  padding-left: 50px;
+}
+footer .footer-content .col-1 .number {
+  font-size: 50px;
+}
+
+footer .footer-content .col-2 .links {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer .footer-content .col-2 .links a {
+  padding-top: 15px;
+  text-decoration: none;
+  color: black;
+}
+footer .footer-content .col-3 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+/* 
+footer .footer-content   form .email{
+  padding: 12px 0px;
+  
+} */
+footer .footer-content form .email input {
+  width: 80%;
+  padding: 6px;
+  margin: 10px 0px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+footer .footer-content form button {
+  display: block;
+  background-color: rgb(223, 121, 121);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 4px 10px;
+  color: white;
+  border: 2px solid rgb(223, 121, 121);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: auto 50px auto auto;
+}
+footer .footer-content form button:hover {
+  background: none;
+  color: rgb(223, 121, 121);
+}
+footer .footer-content .col-4 .social-menu {
+  display: flex;
+  padding-top: 12px;
+}
+
+footer .footer-content .col-4 .social-menu a {
+  padding: 8px 10px;
+  margin: 2px;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: rgb(223, 121, 121);
+  color: white;
+}
+footer .footer-content .col-4 .last {
+  font-size: 20px;
+  padding: 18px;
+}
+
+.about{
+  padding-top:100px;
+}
+
+section .title {
+  position: relative;
+   font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 20px;
+  color: rgb(223, 121, 121);
+ }
+
+  .about p{
+  text-align:justify;
+  padding: 0px 100px ;
+  font-size: 20px;
+ }
+
+ .team{
+   padding :100px ;
+ }
+.team .row{
+  padding:30px;
+}
+
+
+
+/* contact us */
+.contact form{
+  padding: 100px;
+
+
+
+}
+form .title {
+  position: relative;
+   font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 20px;
+  color: rgb(223, 121, 121);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 990px) {
+  .navbar {
+    padding-left: 0px;
+  }
+  .navbar .navbar-nav {
+    padding-left: 0px;
+  }
+  footer .footer-content .col-4 .social-menu a {
+    padding: 6px 8px;
+    margin: 2px;
+    font-size: 20px;
+  }
+
+
+  .about p{
+    
+    padding: 0px 30px ;
+    
+   } 
+
+
+   .team{
+    padding : 0px ;
+  }
+ .team .row{
+   padding:30px;
+ }
+
+ .contact form{
+  padding: 100px 10px;
+
+
+
+}
+
+
+
+
+}
+@media (max-width: 780px) {
+  section {
+    padding: 0px 0px;
+  }
+
+  .donate .donate-content .column {
+    width: 100%;
+  }
+
+  .donate .donate-content .right {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 60px;
+  }
+  .donate .donate-content .left {
+    flex: 100%;
+    padding: auto 0px;
+    margin: auto;
+  }
+  .donate .donate-content .left {
+    padding-left: 20px;
+  }
+
+  .carousel .carousel-inner .carousel-item img {
+    height: 70vh;
+  }
+
+  .donate .donate-content .left .text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .donate .donate-content .left a {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px 10px;
+
+    margin-top: 10px;
+
+    transition: all 0.3s ease;
+  }
+
+  .footer-content .column {
+    width: 24%;
+  }
+
+  footer .footer-content .col-1 {
+    padding-left: 25px;
+  }
+
+  footer .footer-content .column .text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  footer .footer-content .col-4 .social-menu a {
+    padding: 6px 5px;
+    margin: 2px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .donate .donate-content .right .image img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .donate .donate-content .column {
+    width: 40%;
+  }
+}
+
+@media (max-width: 320px) {
+  .donate .donate-content .right .image img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .donate .donate-content .right .love img {
+    height: 150px;
+  }
+
+  .donate .donate-content .left {
+    padding-left: 8px;
+  }
+}
+@media (max-width: 520px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .footer-content .column {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+}
